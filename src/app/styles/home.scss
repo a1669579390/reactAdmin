@@ -1,0 +1,114 @@
+/* 顶部样式 */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eee;
+  color: #3c4858;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+#header {
+  display: block;
+  border: 0;
+  padding: 10px 0;
+  box-shadow: none;
+  min-height: 50px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  transition: all 150ms ease 0s;
+  padding-top: 10px;
+  border-bottom: 0;
+  border-radius: 3px;
+  margin-bottom: 0;
+
+  .MuiToolbar-root {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+
+  .headNav {
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .jss88 {
+    color: #555555;
+    float: left;
+    display: block;
+    padding: 0 0 0 15px;
+  }
+  // 文字
+  .header-title {
+    flex: 1;
+    .title-text {
+      display: block;
+      color: inherit;
+      margin: 0 !important;
+      font-size: 18px;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 300;
+      line-height: 30px;
+      padding-top: 0.625rem;
+      border-radius: 3px;
+      letter-spacing: unset;
+      padding-bottom: 0.625rem;
+      text-transform: none;
+    }
+
+    .jss408 {
+      border: none;
+      cursor: pointer;
+      margin: 0.3125rem 1px;
+      padding: 12px 30px;
+      position: relative;
+      font-size: 12px;
+      min-width: auto;
+      min-height: auto;
+      text-align: center;
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+        background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      font-weight: 400;
+      line-height: 1.42857143;
+      white-space: nowrap;
+      will-change: box-shadow, transform;
+      touch-action: manipulation;
+      border-radius: 3px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+  }
+  // 右侧功能区
+  .header-control {
+    border: 0;
+    margin: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: row;
+
+    // 右侧功能区间距
+    .control-p {
+      font-size: 20px;
+      min-width: 41px;
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+  }
+  .jss1096 {
+    margin: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+  }
+}
