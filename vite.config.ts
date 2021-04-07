@@ -1,6 +1,5 @@
 import { defineConfig } from "vite"
 const path = require("path")
-console.log(__dirname)
 
 export default defineConfig({
   //配置服务器路径
